@@ -1,0 +1,7 @@
+--*Aggregates for Film_length table*--
+SELECT MIN(length) AS min_length,
+	   MAX(length) AS max_length,
+	   AVG(length) AS avg_length,
+	   COUNT(length) AS Count_length,
+	   COUNT(*) AS Row_count
+FROM film

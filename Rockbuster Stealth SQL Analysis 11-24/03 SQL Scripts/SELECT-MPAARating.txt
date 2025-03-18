@@ -1,0 +1,4 @@
+--*Selects Rating form Film table, groups by count*--
+SELECT rating, COUNT(rating) 
+  FROM film
+  Group by rating

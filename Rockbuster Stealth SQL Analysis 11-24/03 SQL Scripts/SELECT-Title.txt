@@ -1,0 +1,6 @@
+--*selectes title from Film table*--
+SELECT title AS Film_name,
+	   count(*)
+  FROM film
+  GROUP BY title 
+  ORDER BY count(*)

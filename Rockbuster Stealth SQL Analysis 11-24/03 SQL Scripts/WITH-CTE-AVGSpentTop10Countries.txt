@@ -1,0 +1,23 @@
+--*used to find the average spent per customer in the top 10 RB countries*--
+WITH total_amount_paid_cte (total_amount_paid) AS
+  (SELECT SUM(amount) AS "total amount paid", 
+        A.customer_id, 
+        B.first_name, 
+        B.last_name,
+        D.city, 
+        E.country
+  FROM payment A
+  INNER JOIN customer B 
+    ON A.customer_id = B.customer_id
+  INNER JOIN address C 
+    ON B.address_id = C.address_id
+  INNER JOIN city D 
+    ON C.city_id = D.city_id
+  INNER JOIN country E 
+    ON D.country_id = E.country_ID
+  WHERE E.country IN ('India','China','United States','Japan','Mexico','Brazil','Russian Federation','Phillipines','Turkey','indonesia')
+  GROUP BY A.customer_id, B.first_name, B.last_name, D.city, E.country
+  ORDER BY SUM(amount)
+  )
+  SELECT AVG(total_amount_paid)
+  FROM total_amount_paid_cte;
