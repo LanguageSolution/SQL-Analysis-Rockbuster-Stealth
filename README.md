@@ -25,4 +25,10 @@ This project highlights my expertise in SQL, employing advanced queries for comp
 
 <b>Skills</b>: Data Cleaning and Analysis, Descriptive Statistics, Joining Tables, Subqueries, Common Table Expressions, Filtering, Database Querying, Storytelling, Presentation, Data Visualization, Data Dictionary Development.
 
+Tableau Links
+
+https://public.tableau.com/app/profile/markus.teich/viz/108Countries/Sheet1
+https://public.tableau.com/app/profile/markus.teich/viz/Customerdistribution_17358240553520/Sheet1
+https://public.tableau.com/app/profile/markus.teich/viz/Cities_17358316967970/Sheet1
+
 [README.md](https://github.com/user-attachments/files/19303908/README.md)
