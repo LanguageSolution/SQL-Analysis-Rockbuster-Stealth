@@ -30,5 +30,3 @@ Tableau Links
 https://public.tableau.com/app/profile/markus.teich/viz/108Countries/Sheet1
 https://public.tableau.com/app/profile/markus.teich/viz/Customerdistribution_17358240553520/Sheet1
 https://public.tableau.com/app/profile/markus.teich/viz/Cities_17358316967970/Sheet1
-
-[README.md](https://github.com/user-attachments/files/19303908/README.md)
