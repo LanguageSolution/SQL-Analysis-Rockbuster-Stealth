@@ -21,11 +21,11 @@ This project highlights my expertise in SQL, employing advanced queries for comp
 
 <b>Limitations</b>:The presented data was generated for learning purposes and may not fully represent a complete consumer base, lacking key variables and demographics that could enhance the analysis process.
 
-<b>Tools</b>: SQL Syntax, PostgreSQL, Tableau Public.
+<b>Tools</b>: SQL Syntax, PostgreSQL, Tableau Public
 
 <b>Skills</b>: Data Cleaning and Analysis, Descriptive Statistics, Joining Tables, Subqueries, Common Table Expressions, Filtering, Database Querying, Storytelling, Presentation, Data Visualization, Data Dictionary Development.
 
-Tableau Links
+Tableau Links:
 
 https://public.tableau.com/app/profile/markus.teich/viz/108Countries/Sheet1
 https://public.tableau.com/app/profile/markus.teich/viz/Customerdistribution_17358240553520/Sheet1
